@@ -1,0 +1,32 @@
+name: sign_x
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+   # ✅ Use the compatible versions together
+  google_mlkit_translation: ^0.11.1
+  google_mlkit_text_recognition: ^0.13.0
+
+  speech_to_text: ^6.6.2
+  permission_handler: ^11.3.1
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  firebase_storage: ^11.6.0
+  video_player: ^2.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/videos/
